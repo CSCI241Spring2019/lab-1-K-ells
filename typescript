@@ -1,0 +1,897 @@
+Script started on Thu 18 Apr 2019 09:55:22 AM PDT
+angusk@CF165-18:~$ [Kangusk@CF165-18:~$ cd csci [K241
+angusk@CF165-18:~/csci241$ ls
+add  lab-1-K-ells  username.txt  writeup.txt
+angusk@CF165-18:~/csci241$ git clone ^V[K[K htp[Ktps://github.com/CC[KSCI241Sprig2-[K0[K[K[Kng2019/Lab[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit config --global.[K user.nam [Ke "YOur[K[K[Kour Name Goe [Ks Here"
+angusk@CF165-18:~/csci241$ git config --global.user[K[K[K[K[K user.name ""K"e"l"l"e"e"n" "A"n"g"u"s"
+angusk@CF165-18:~/csci241$ git config --glov[Kbal user.email angusk@wwu.edu
+angusk@CF165-18:~/csci241$ touch writeup.txt
+angusk@CF165-18:~/csci241$ git add writep.[K[K[Keup.tz[Kxt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+angusk@CF165-18:~/csci241$ git clone http:[Ks://github.com/CSCI241Spring2019/Lab[K[K[Klab-1-K-ells
+fatal: destination path 'lab-1-K-ells' already exists and is not an empty directory.
+angusk@CF165-18:~/csci241$ git clone https;[K://github.com/csc[K[K[KCSCI241Sping[K[K[Kring2019/lab-1.[K-K-ells
+Cloning into 'lab-1-K-ells'...
+remote: Enumerating objects: 17, done.[K
+remote: Counting objects:   5% (1/17)   [Kremote: Counting objects:  11% (2/17)   [Kremote: Counting objects:  17% (3/17)   [Kremote: Counting objects:  23% (4/17)   [Kremote: Counting objects:  29% (5/17)   [Kremote: Counting objects:  35% (6/17)   [Kremote: Counting objects:  41% (7/17)   [Kremote: Counting objects:  47% (8/17)   [Kremote: Counting objects:  52% (9/17)   [Kremote: Counting objects:  58% (10/17)   [Kremote: Counting objects:  64% (11/17)   [Kremote: Counting objects:  70% (12/17)   [Kremote: Counting objects:  76% (13/17)   [Kremote: Counting objects:  82% (14/17)   [Kremote: Counting objects:  88% (15/17)   [Kremote: Counting objects:  94% (16/17)   [Kremote: Counting objects: 100% (17/17)   [Kremote: Counting objects: 100% (17/17), done.[K
+remote: Compressing objects:  10% (1/10)   [Kremote: Compressing objects:  20% (2/10)   [Kremote: Compressing objects:  30% (3/10)   [Kremote: Compressing objects:  40% (4/10)   [Kremote: Compressing objects:  50% (5/10)   [Kremote: Compressing objects:  60% (6/10)   [Kremote: Compressing objects:  70% (7/10)   [Kremote: Compressing objects:  80% (8/10)   [Kremote: Compressing objects:  90% (9/10)   [Kremote: Compressing objects: 100% (10/10)   [Kremote: Compressing objects: 100% (10/10), done.[K
+remote: Total 17 (delta 3), reused 9 (delta 0), pack-reused 0[K
+Unpacking objects:   5% (1/17)   Unpacking objects:  11% (2/17)   Unpacking objects:  17% (3/17)   Unpacking objects:  23% (4/17)   Unpacking objects:  29% (5/17)   Unpacking objects:  35% (6/17)   Unpacking objects:  41% (7/17)   Unpacking objects:  47% (8/17)   Unpacking objects:  52% (9/17)   Unpacking objects:  58% (10/17)   Unpacking objects:  64% (11/17)   Unpacking objects:  70% (12/17)   Unpacking objects:  76% (13/17)   Unpacking objects:  82% (14/17)   Unpacking objects:  88% (15/17)   Unpacking objects:  94% (16/17)   Unpacking objects: 100% (17/17)   Unpacking objects: 100% (17/17), done.
+Checking connectivity... done.
+angusk@CF165-18:~/csci241$ ls
+add  lab-1-K-ells  lab-1-K-ells-1  username.txt  writeup.txt
+angusk@CF165-18:~/csci241$ git config --global user.name "Kelleen Angus"
+angusk@CF165-18:~/csci241$ i[Kgit config --global user,[K.email "[Kangusk@wwu.edu
+angusk@CF165-18:~/csci241$ touch writeup/[K.txt
+angusk@CF165-18:~/csci241$ git add writeup.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+angusk@CF165-18:~/csci241$ cd lab-1-a[KK-ells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ touch writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git add writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -, "[K[K[Km "Added empty writeup"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git ush[K[K[Kpush #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-K-ells/'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ push #
+The program 'push' is currently not installed. To run 'push' please ask your administrator to install the package 'heimdal-clients'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-K-ells/'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': k k K-ells
+Password for 'https://K-ells@github.com': 
+Everything up-to-date
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git add writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "add[K[K[KAdded part 1 (names [K) to wrietup[K[K[K[Kteup"
+[master 85ffe2b] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+angusk@CF165-18:~/csci241/lab-1-K-ells$ got [K[K[Kit add writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "Added part 2 (hobby) to writeup"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+angusk@CF165-18:~/csci241/lab-1-K-ells$ gt[Kit add writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "added[K[K[K[K[KAdded part 2 (bo[K[Khobby) to wwriteup[K[K[K[K[K[K[Kriteup"
+[master a9484bd] Added part 2 (hobby) to writeup
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+angusk@CF165-18:~/csci241/lab-1-K-ells$ touch username.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git add write[K[K[K[K[K[K userb[Kname.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ gt[Kit commit -m "added empty username"
+[master 14c8119] added empty username
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 username.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push#[K #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-K-ells/'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ K-ells
+K-ells: command not found
+angusk@CF165-18:~/csci241/lab-1-K-ells$ pit push #
+No command 'pit' found, did you mean:
+ Command 'pat' from package 'dist' (universe)
+ Command 'ppt' from package 'bsdgames' (universe)
+ Command 'git' from package 'git' (main)
+ Command 'pt' from package 'tcllib' (universe)
+ Command 'ppit' from package 'libconfig-pit-perl' (universe)
+ Command 'vit' from package 'vit' (universe)
+ Command 'pia' from package 'pia' (universe)
+ Command 'pig' from package 'bsdgames' (universe)
+ Command 'nit' from package 'python-nevow' (universe)
+ Command 'prt' from package 'prt' (universe)
+ Command 'wit' from package 'wit' (universe)
+ Command 'pic' from package 'groff-base' (main)
+ Command 'pi' from package 'pi' (universe)
+ Command 'pil' from package 'picolisp' (universe)
+ Command 'pip' from package 'python-pip' (universe)
+pit: command not found
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-K-ells/'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 856 bytes | 0 bytes/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-K-ells
+   9e99675..14c8119  master -> master
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "added [K[K[K[K[K[KAdded everything tp [K[Ko username"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   username.txt[m
+
+no changes added to commit
+angusk@CF165-18:~/csci241/lab-1-K-ells$ got [K[K[Kit add username.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ giit [K[K[Kt commt[Kit -, ""A"d"d"e"d" "e"v"e"t"r"y"[1P"[1P"[1P"r"y"t"h"i"n"g" "t"o" "u"s"e"r"b"a"n"e"[1P"[1P"[1P"[1P"n"a"m"e"?"
+error: unknown switch `,'
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git add username.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ got [K[K[Kit commit -m "Added Everthing to sernam[K[K[K[K[K[Kusername"
+[master ef20b4d] Added Everthing to username
+ 1 file changed, 1 insertion(+)
+angusk@CF165-18:~/csci241/lab-1-K-ells$ touch tester.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ got[K[Kit add teserer[K[K[K[K[Kster.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m ""a"d"d"e"d" "e"m"o"t"y" "t"e"s"t"e"r" "t"x"t" "[1P"[1@p[1P
+[master ff7e5ea] added empty tester txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 tester.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 492 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-K-ells
+   14c8119..ff7e5ea  master -> master
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git checkout tster.txt
+error: pathspec 'tster.txt' did not match any file(s) known to git.
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git checkout tester.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git res[Kset ch[K[Ktester.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git mv[K[K[K[K[K[K$ git checkout -b question3.txt
+$: command not found
+angusk@CF165-18:~/csci241/lab-1-K-ells$ giot[K[Kt checkout -b question3.txt
+Switched to a new branch 'question3.txt'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git [K[K[K[Kgit add writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "a[KAdded paar [K[K[Krt 3 (sng)[K[K[Kong) to writeup"
+[question3.txt 922e45c] Added part 3 (song) to writeup
+ 1 file changed, 1 insertion(+)
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git rm question3.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit o[Kpush oriin master
+fatal: 'oriin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git pi[Kush origin master
+Username for 'https://github.com': K-3 ells
+Password for 'https://K-ells@github.com': 
+Everything up-to-date
+angusk@CF165-18:~/csci241/lab-1-K-ells$ exut[K[Kit
+exit
+
+Script done on Thu 18 Apr 2019 10:58:15 AM PDT
+Script started on Thu 18 Apr 2019 01:14:03 PM PDT
+angusk@CF165-18:~$ gradle buikd[K[Kld
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon > Connecting to Daemon[m[40D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[0K
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+[0K
+[0K
+[2A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [0s][m[35D[1B> IDLE[6D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 2s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~$ gradle run
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'angusk'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mangusk@CF165-18:~$ run gradle tasks
+No command 'run' found, did you mean:
+ Command 'grun' from package 'grun' (universe)
+ Command 'rup' from package 'rstat-client' (universe)
+ Command 'rn' from package 'trn4' (multiverse)
+ Command 'rn' from package 'trn' (multiverse)
+ Command 'qrun' from package 'torque-client' (universe)
+ Command 'qrun' from package 'torque-client-x11' (universe)
+ Command 'zrun' from package 'moreutils' (universe)
+ Command 'runc' from package 'runc' (universe)
+ Command 'runq' from package 'sendmail-bin' (universe)
+ Command 'runq' from package 'exim4-daemon-heavy' (main)
+ Command 'runq' from package 'exim4-daemon-light' (main)
+ Command 'srun' from package 'slurm-client' (universe)
+run: command not found
+angusk@CF165-18:~$ gl[Kradle run
+[0m
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'angusk'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2K[0mangusk@CF165-18:~$ cd csci241
+angusk@CF165-18:~/csci241$ gradle build
+[0m
+[1A
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mangusk@CF165-18:~/csci241$ run gradle
+No command 'run' found, did you mean:
+ Command 'srun' from package 'slurm-client' (universe)
+ Command 'rup' from package 'rstat-client' (universe)
+ Command 'rn' from package 'trn' (multiverse)
+ Command 'rn' from package 'trn4' (multiverse)
+ Command 'grun' from package 'grun' (universe)
+ Command 'runq' from package 'exim4-daemon-light' (main)
+ Command 'runq' from package 'exim4-daemon-heavy' (main)
+ Command 'runq' from package 'sendmail-bin' (universe)
+ Command 'zrun' from package 'moreutils' (universe)
+ Command 'qrun' from package 'torque-client' (universe)
+ Command 'qrun' from package 'torque-client-x11' (universe)
+ Command 'runc' from package 'runc' (universe)
+run: command not found
+angusk@CF165-18:~/csci241$ gradle run
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'csci241'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mangusk@CF165-18:~/csci241$ ls
+add  lab-1-K-ells  lab-1-K-ells-1  username.txt  writeup.txt
+angusk@CF165-18:~/csci241$ cd lab-a-[K[K1-K-ells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ cd
+angusk@CF165-18:~$ cd src
+bash: cd: src: No such file or directory
+angusk@CF165-18:~$ cd sc[K[Kcsci241
+angusk@CF165-18:~/csci241$ cd lab-1-K-ells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ ls
+build.gradle  src  tester.txt  username.txt  writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ cd src
+angusk@CF165-18:~/csci241/lab-1-K-ells/src$ ls
+main
+angusk@CF165-18:~/csci241/lab-1-K-ells/src$ cd main
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main$ ls
+java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main$ cd java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java$ ls
+lab1
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java$ cd lab1
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ ls
+Hello.java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ cd[K[Kgradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> Connecting to Daemon[m[22D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ grdale [K[K[K[K[Kadle build
+[0m
+[1A
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mangusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ gradle run
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mangusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ ls
+Hello.java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ cd hello.java
+bash: cd: hello.java: No such file or directory
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ cd Hello.java
+bash: cd: Hello.java: Not a directory
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ cd
+angusk@CF165-18:~$ cd scs[K[K[Kcsci241
+angusk@CF165-18:~/csci241$ cd[K[Kls
+add  lab-1-K-ells  lab-1-K-ells-1  username.txt  writeup.txt
+angusk@CF165-18:~/csci241$ cd Lab[K[K[Klab-1-K-ells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ cd
+angusk@CF165-18:~$ cd csci241
+angusk@CF165-18:~/csci241$ ls
+add  lab-1-K-ells  lab-1-K-ells-1  username.txt  writeup.txt
+angusk@CF165-18:~/csci241$ cd K[Klab-1-K-ells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ ls
+build.gradle  src  tester.txt  username.txt  writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ directory
+directory: command not found
+angusk@CF165-18:~/csci241/lab-1-K-ells$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/angusk/csci241/lab-1-K-ells/build.gradle into local compilation cache > Compiling build file '/home/angusk/csci241/lab-1-K-ells/build.gradle' to cross build script cache[m[202D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/angusk/csci241/lab-1-K-ells/build.gradle into local compilation cache > Compiling build file '/home/angusk/csci241/lab-1-K-ells/build.gradle' to cross build script cache[m[202D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [1s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ grda[K[Kal[Kdle run --args+[K="241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gradle run --args [K+[K=""2"4"1"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:4: error: <identifier> expected
+    public static void main(String[] --args){
+                                    ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:4: error: ';' expected
+    public static void main(String[] --args){
+                                       ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:4: error: illegal start of type
+    public static void main(String[] --args){
+                                           ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:4: error: <identifier> expected
+    public static void main(String[] --args){
+                                            ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:4: error: ';' expected
+    public static void main(String[] --args){
+                                             ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:5: error: illegal start of type
+        System.out.println();
+              ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println();
+                  ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:5: error: invalid method declaration; return type required
+        System.out.println();
+                   ^
+/home/angusk/csci241/lab-1-K-ells/src/main/java/lab1/Hello.java:7: error: class, interface, or enum expected
+}
+^
+9 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ grdale [K[K[K[K[Kadle re[Kun --args=""241[1P241[C[C[C[C"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gardle ru[K[K[K[K[K[K[K[Kradle reun=[K[K[K[Kun --args [K=""2"4"1"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello --args!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gradle run --args+[K=""D"o"e"s"T"h"i"s"W"o"r"k"?"
+[0m
+[1A
+[1m> Task :run[m
+Hello --args!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gardle [K[K[K[K[K[Kradle run --args=""D"o"e"s"t"h"i"[1P"[1P"[1P"T"h"i"s"W"o"r"k"?"?"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gradle run --args [K=""D"o"e"s"t"h"[1P"[1P"T"h"i"s"W"o"r"d"[1P"l"[1P"k"?"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello
+DoesThisWork?
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gradle run --args=""Y"E"E"T"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[1m> Task :run[m[0K
+HelloYEET
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ gradle run --args=""Y"E"A"H"B"P"I"[1P"[1P"O"I"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello YEAHBOI!
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[0K[6D[1B[2A[2K[1B[2K[1A[0mangusk@CF165-18:~/csci241/lab-1-K-ells$ GIT ADD SRC/[K[K[K[K[K[K[K[K[K[K[K[Kgit add/[K src/main/java/lab1/Hello.java
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "Hello now pro[Kints command line arg"
+[question3.txt 2aa41c9] Hello now prints command line arg
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch question3.txt has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3.txt
+
+angusk@CF165-18:~/csci241/lab-1-K-ells$ gt branch
+The program 'gt' is currently not installed. To run 'gt' please ask your administrator to install the package 'genometools'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git branch
+  master[m
+* [32mquestion3.txt[m
+angusk@CF165-18:~/csci241/lab-1-K-ells$ merge branch 'question3.txt'
+The program 'merge' is currently not installed. To run 'merge' please ask your administrator to install the package 'rcs'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ ,[Kgit checkout master
+M	tester.txt
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push[K[K[K[K[K[K[K[Kgit add src/main/jab[Kva/lab1/Hello.java
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "Hello now prints command lie arg"[1@n
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   tester.txt[m
+
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+
+no changes added to commit
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "EW[K[Kthis is scrwing [K[K[K[K[Kewing with e[Ke[Kme"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   tester.txt[m
+
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+
+no changes added to commit
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push#
+git: 'push#' is not a git command. See 'git --help'.
+
+Did you mean this?
+	push
+angusk@CF165-18:~/csci241/lab-1-K-ells$ gi push[K[K[K[K[Kt push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+Everything up-to-date
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git add src/main/java/Hello.h[K[K[K[K[K[K[K[K[K[K[K[Klab1/Hello.java
+fatal: pathspec 'src/main/lab1/Hello.java' did not match any files
+angusk@CF165-18:~/csci241/lab-1-K-ells$ src/main/jav/lab1/Hello.java
+bash: src/main/jav/lab1/Hello.java: No such file or directory
+angusk@CF165-18:~/csci241/lab-1-K-ells$ cd
+angusk@CF165-18:~$ ls
+CSCI  csci241  C:\Users\angusk\Desktop\lab1.zip  Desktop  Documents  Downloads	eclipse-workspace  Music  Pictures  Public  Templates  typescript  Videos
+angusk@CF165-18:~$ csci241
+csci241: command not found
+angusk@CF165-18:~$ cd csci241
+angusk@CF165-18:~/csci241$ cd[K[Kls
+add  lab-1-K-ells  lab-1-K-ells-1  username.txt  writeup.txt
+angusk@CF165-18:~/csci241$ cd K-ell[K[K[K[K[Klab1[K-1-L[KK-ells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ ls
+build  build.gradle  src  tester.txt  username.txt  writeup.txt
+angusk@CF165-18:~/csci241/lab-1-K-ells$ cd src
+angusk@CF165-18:~/csci241/lab-1-K-ells/src$ ls
+main
+angusk@CF165-18:~/csci241/lab-1-K-ells/src$ cd main
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main$ ls
+java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main$ cd java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java$ ls
+lab1
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java$ cd lab1
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ ls
+Hello.java
+angusk@CF165-18:~/csci241/lab-1-K-ells/src/main/java/lab1$ cd[K[Kcd
+angusk@CF165-18:~$ cd H[Kcsci241
+angusk@CF165-18:~/csci241$ cd lab-1-K-3lls[K[K[K[Kells
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "[K[K[K[K[K[K[K[K[K[K[Kadd src/main/java/lab1/ell[K[K[KHello.java
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git commit -m "Hello now (finally)[K aus[K[K[Kcaus [Ke i hit t[Kctrl-z instead of cr[Ktrl-s) prints command line arg"
+[master 1f9bfba] Hello now (finally cause i hit ctrl-z instead of ctrl-s) prints command line arg
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+angusk@CF165-18:~/csci241/lab-1-K-ells$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': K-ells
+Password for 'https://K-ells@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 593 bytes | 0 bytes/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-K-ells
+   ff7e5ea..1f9bfba  master -> master
+angusk@CF165-18:~/csci241/lab-1-K-ells$ WOOOOOOOO
+WOOOOOOOO: command not found
+angusk@CF165-18:~/csci241/lab-1-K-ells$ i miss eclipse
+The program 'i' is currently not installed. To run 'i' please ask your administrator to install the package 'iprint'
+angusk@CF165-18:~/csci241/lab-1-K-ells$ exit
+exit
+
+Script done on Thu 18 Apr 2019 02:16:39 PM PDT
