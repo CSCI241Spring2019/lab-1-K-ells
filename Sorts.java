@@ -20,8 +20,7 @@ public class Sorts {
 	static int[] newArray (int length) {
 		int[] newArray = new int[length];
 		for(int i=0; i<length; i++) {
-			newArray[i] = fillArray();
-			
+			newArray[i] = fillArray();		
 		}
 		return newArray;
 	}
@@ -118,8 +117,7 @@ public class Sorts {
         } 
       //System.out.println("MERGESORT ARRAY: " + Arrays.toString(n));
       //System.out.println("NewArray: " + newArray + ", OLD ARRAY: "+Arrays.toString(n));
-      
-      
+        
       String nArray = Arrays.toString(n);
       if(!(newArray.equals(nArray))){
     	  //changes ++;
@@ -130,30 +128,30 @@ public class Sorts {
       return n;
     } 
   
-    static int[] mergeSort(int n[], int leftSide, int rightSide, int changes) { 
+    static int[] mergeSort(int array[], int leftSide, int rightSide, int changes) { 
     	//Used to Sort the merge function
-    	int[] oldN = n;
+    	int[] oldArray = array;
     		if (leftSide < rightSide) 
     		{ 
                 // Find the middle point 
                 int middle = (leftSide + rightSide) / 2; 
       
                  //Sort first and second halves 
-                mergeSort(n, leftSide, middle, changes); 
-                if(oldN != n) 
+                mergeSort(array, leftSide, middle, changes); 
+                if(oldArray != array) 
                 {	
                 	changes++;
                 }
-                mergeSort(n , middle + 1, rightSide, changes); 
-                if(oldN != n) {
+                mergeSort(array , middle + 1, rightSide, changes); 
+                if(oldArray != array) {
                 	changes++;
                 }
                 
                 // Merge the sorted halves 
-                merge(n, leftSide, middle, rightSide); 
+                merge(array, leftSide, middle, rightSide); 
             }
     		//System.out.println("Merge_A: "+ Arrays.toString(n));
-    		return n;
+    		return array;
     	}
         
         //System.out.println("Merge_A: "+ Arrays.toString(n));
@@ -168,54 +166,54 @@ public class Sorts {
         }
     	return array;
     }
-	public static int[] quickSort(int[] arr, int start, int end, int changes){
+	public static int[] quickSort(int[] unSortedA, int start, int end, int changes){
 		 
-        int partition = partition(arr, start, end);
+        int partition = partition(unSortedA, start, end);
  
         if(partition-1>start) {
-            quickSort(arr, start, partition - 1, changes);
-            changes+= changes;
+            quickSort(unSortedA, start, partition - 1, changes);
+            changes++;
         }
         if(partition+1<end) {
-            quickSort(arr, partition + 1, end, changes);
-            changes+= changes;
+            quickSort(unSortedA, partition + 1, end, changes);
+            changes++;
         }
-		return arr;
+		return unSortedA;
     }
  
-    public static int partition(int[] arr, int start, int end){
-        int pivot = arr[end];
+    public static int partition(int[] unSortA, int start, int end){
+        int pivot = unSortA[end];
  
         for(int i=start; i<end; i++){
-            if(arr[i]<pivot){
-                int temp= arr[start];
-                arr[start]=arr[i];
-                arr[i]=temp;
+            if(unSortA[i]<pivot){
+                int temp= unSortA[start];
+                unSortA[start]=unSortA[i];
+                unSortA[i]=temp;
                 start++;
             }
         }
  
-        int temp = arr[start];
-        arr[start] = pivot;
-        arr[end] = temp;
+        int temp = unSortA[start];
+        unSortA[start] = pivot;
+        unSortA[end] = temp;
  
         return start;
     }
 
 
 	/*** RADIX SORT ***/
-    static int getMax(int arr[], int n) 
+    static int getMax(int array[], int n) 
     { 
-        int mx = arr[0]; 
+        int maximum = array[0]; 
         for (int i = 1; i < n; i++) 
-            if (arr[i] > mx) 
-                mx = arr[i]; 
-        return mx; 
+            if (array[i] > maximum) 
+                maximum = array[i]; 
+        return maximum; 
     } 
   
     // A function to do counting sort of arr[] according to 
     // the digit represented by exp. 
-    static void countSort(int arr[], int n, int exp) 
+    static void countSort(int arrayUnSort[], int n, int exp) 
     { 
         int output[] = new int[n]; // output array 
         int i; 
@@ -224,7 +222,7 @@ public class Sorts {
   
         // Store count of occurrences in count[] 
         for (i = 0; i < n; i++) 
-            count[ (arr[i]/exp)%10 ]++; 
+            count[ (arrayUnSort[i]/exp)%10 ]++; 
   
         // Change count[i] so that count[i] now contains 
         // actual position of this digit in output[] 
@@ -234,35 +232,35 @@ public class Sorts {
         // Build the output array 
         for (i = n - 1; i >= 0; i--) 
         { 
-            output[count[ (arr[i]/exp)%10 ] - 1] = arr[i]; 
-            count[ (arr[i]/exp)%10 ]--; 
+            output[count[ (arrayUnSort[i]/exp)%10 ] - 1] = arrayUnSort[i]; 
+            count[ (arrayUnSort[i]/exp)%10 ]--; 
         } 
   
         // Copy the output array to arr[], so that arr[] now 
         // contains sorted numbers according to curent digit 
         for (i = 0; i < n; i++) 
-            arr[i] = output[i]; 
+            arrayUnSort[i] = output[i]; 
     } 
-   static int[] positiveRadixSort(int arr[], int n) 
+   static int[] positiveRadixSort(int arrayUnSort[], int n) 
    { 
        // Find the maximum number to know number of digits 
-       int m = getMax(arr, n); 
+       int m = getMax(arrayUnSort, n); 
  
        // Do counting sort for every digit. Note that instead 
        // of passing digit number, exp is passed. exp is 10^i 
        // where i is current digit number 
        for (int exp = 1; m/exp > 0; exp *= 10) 
-           countSort(arr, n, exp); 
+           countSort(arrayUnSort, n, exp); 
        
-       return arr;
+       return arrayUnSort;
    } 
     
-    static int[] checkForNeg (int arr[], int n) {
+    static int[] checkForNeg (int arrayUnSort[], int n) {
     	int compare = 0;
     	int negCount =0;
     	int posCount =0;
-    	for(int i = 0;i<arr.length; i++) {
-    		if(arr[i] < 0) {
+    	for(int i = 0;i<arrayUnSort.length; i++) {
+    		if(arrayUnSort[i] < 0) {
     			//If neg number, add to counter
     			negCount++;
     		}else {
@@ -271,19 +269,19 @@ public class Sorts {
     	}
     	int[] positiveArr = new int[posCount];
     	int[] negativeArr = new int[negCount];
-    	for(int j=0; j<arr.length; j++){
-    		if(arr[j] < 0) {
+    	for(int j=0; j<arrayUnSort.length; j++){
+    		if(arrayUnSort[j] < 0) {
     			//if the value is negative, add to negative Arr
     			for(int k = 0; k<negativeArr.length; k++) {
     				if(negativeArr[k] == 0) {
-    					negativeArr[k] = arr[j];
+    					negativeArr[k] = arrayUnSort[j];
     					break;
     				}
     			}
     		}else {
     			for(int k = 0; k<positiveArr.length; k++) {
     				if(positiveArr[k] == 0) {
-    					positiveArr[k] = arr[j];
+    					positiveArr[k] = arrayUnSort[j];
     					break;
     				}
     			}
