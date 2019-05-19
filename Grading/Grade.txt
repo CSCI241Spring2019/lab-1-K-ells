@@ -1,0 +1,34 @@
+Hello! This is [todo_name] grading your Lab 1.
+
+Your total score is [finalscore] / 10
+
+The point breakdown is given in the sections below, corresponding to the rubric given on the Lab 1 handout.
+
+==============
+Git Operations
+==============
+
+[todo_score] / 4 Basic git operations steps are completed and all listed commands have been executed at least once. Note that this cannot be verified without your typescript file.
+[todo_comment]
+
+=============
+Username File
+=============
+
+[todo_score] / 2 username.txt contains name, username, and github username as specified
+[todo_comment]
+
+============
+Writeup File
+============
+
+[todo_score] / 2 writeup.txt contains name, hobby, and song as specified.
+[todo_comment]
+
+===========
+Hello World
+===========
+
+[todo_score] / 2 Hello.java prints "Hello, " followed by the 0th command-line argument, followed by "!"
+[todo_comment]
+
